@@ -1,19 +1,3 @@
-
-def add(a,b):
-    return a+b
-
-a = int(input("input the first number: "))
-b = int(input("input the second number: "))
-
-result= add(a,b)
-print(result)
-
-def multiply(a,b):
-    return a*b
-
-def divide(a,b):
-    return (a/b)
-
 print("Select an operation to perform:")
 print("1. Add")
 print("2. Subtract")
@@ -44,4 +28,5 @@ elif operation == '4':
         quotient = float(a) / float(b)
         print("The quotient is: ", quotient)
     else:
+
         print("Error: Division by zero is not allowed.")
